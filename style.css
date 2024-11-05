@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #29a598;
+    --text-color: #7455f3;
+    --background-light: #e98f8f;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+}
+
+.header-background {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://unsplash.com/photos/a-lone-pine-tree-on-a-grassy-hill-qaiiy8jmWRY') center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: var(--background-light);
+    border-radius: 8px;
+}
+
+.project {
+    background-color: var(--primary-color);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    color: var(--text-color);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: var(--text-color);
+}
